@@ -27,7 +27,7 @@ void category_c()
 	file_outcome = compare_files(test_count);
 	len_outcome = compare_length(test_count, ft_outcome, outcome);
 	printf("test %d: ", test_count);
-	if(ft_outcome != outcome || file_outcome != 0) 
+	if(len_outcome != 0 || file_outcome != 0) 
 		printf("FAIL\n");
 	else
 		printf("OK\n");

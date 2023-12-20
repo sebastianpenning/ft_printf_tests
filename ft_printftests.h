@@ -6,7 +6,7 @@
 /*   By: mynodeus <mynodeus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 23:03:23 by spenning          #+#    #+#             */
-/*   Updated: 2023/12/20 20:15:17 by mynodeus         ###   ########.fr       */
+/*   Updated: 2023/12/20 20:35:37 by mynodeus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 // unistd library. and malloc and free from the stdlib library.
 
 # include <stdio.h>
+# include "../libft/libft.h"
+# include "../ft_printf.h"
+
 
 int compareFile(FILE * fPtr1, FILE * fPtr2, int * line, int * col);
 int compare_length(int test_count, int ft_outcome, int outcome);

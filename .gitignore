@@ -4,3 +4,5 @@ ft_printf.h
 libftprintf.a
 libft
 libft/libft.h
+*.o
+*.a
