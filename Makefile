@@ -18,6 +18,7 @@ all: exe
 exe: $(NAME)
 	cc -Wall -Werror -Wextra ft_printftests.c ft_printftests.a && ./a.out
 	rm a.out
+	@$(MAKE) -s -C $(LIB_DIR) fclean
 
 $(NAME): $(LIB_DIR)/$(LIB_ARC) $(OBJS) 
 	ar rcs $(NAME) $(OBJS)
