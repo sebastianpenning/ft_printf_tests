@@ -1,4 +1,4 @@
-LIB_DIR := ../../ft_printf
+LIB_DIR := ../
 LIB_ARC := libftprintf.a
 
 CC = cc
